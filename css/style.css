@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    font-family: 'playfair display', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+    margin: 0 17.25% 0 17.25%;
+    background-color: #fff;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+    background-image: url('/Img/wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* svg {
+    width: 100%;
+    grid-area: overlap;
+    justify-self: center;
+} */
+
+header h1 {
+    grid-area: overlap;
+    align-self: flex-start;
+    padding-top: 8rem;
+    justify-self: center;
+    color: #fff;
+    font-size: 4em;
+}
+
+.main_container {
+    padding-bottom: 35px;
+}
+
+.mainTop {
+    width: 80rem;
+    margin: 0 auto;
+}
+
+.mainTop h3 {
+    color: rgba(9,109,121,1);
+    font-size: 30px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.mainTop p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mainBottom {
+    width: 80rem;
+    margin: 0 auto;
+}
+
+.mainBottom h3 {
+    color: rgba(9,109,121,1);
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-align: end;
+}
+
+.mainBottom p {
+    text-align: end;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #111;
+    display: flex;
+    height: 10vh;
+    margin: 0 17.25%;
+}
+
+footer p {
+    color: #fff;
+    align-items: center;
+    margin: auto;
+}
