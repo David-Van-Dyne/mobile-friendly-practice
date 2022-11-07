@@ -24,7 +24,7 @@ header {
     grid-template-columns: 100%;
     grid-template-rows: 1fr;
     grid-template-areas: "overlap";
-    background-image: url('../Img/wave.svg');
+    background-image: url('/Img/wave.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
