@@ -24,7 +24,7 @@ header {
     grid-template-columns: 100%;
     grid-template-rows: 1fr;
     grid-template-areas: "overlap";
-    background-image: url('/Img/wave.svg');
+    background-image: url('../Img/wave.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -95,4 +95,10 @@ footer p {
     color: #fff;
     align-items: center;
     margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_container {
+    background-color: lightblue;
+  }
 }
